@@ -54,39 +54,36 @@
         <div class="row justify-content-center">
             <div class="col-7">
                 <form action="">
+
                     <div class="mb-3">
                         <label class="form-label">Empanadas</label>
                         
-                        <select class="form-select" aria-label="Default select example">
+                        <select id="empanadas" class="form-select" aria-label="Default select example">
                             <option selected>Open this select menu</option>
-                            <option value="1">Carne</option>
-                            <option value="2">Paisa</option>
-                            <option value="3">Queso</option>
-                            <option value="4">Ranchera</option>
-                            <option value="5">Papa</option>
-                            
+                            <option value="carne">Carne</option>
+                            <option value="paisa">Paisa</option>
+                            <option value="queso">Queso</option>
+                            <option value="ranchera">Ranchera</option>
+                            <option value="papa">Papa</option>
+                        </select>
+                    </div>
 
-
-                          </select>
-
-                        
-                        </div>
                         <div class="mb-3">
-                        <label class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                          <label class="form-label">Nombre</label>
+                          <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
                         </div>
 
                         <div class="mb-3">
-                        <label class="form-label">Cedula</label>
-                        <input type="number" class="form-control" id="Edad" aria-describedby="emailHelp">
-                        
+                          <label class="form-label">Cedula</label>
+                          <input type="number" class="form-control" id="cedula" aria-describedby="emailHelp">
                         </div>
 
                         <div class="mb-3">
-                        <label class="form-label">Correo</label>
-                        <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp">
-                        
+                          <label class=form-label>Correo</label>
+                          <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
                         </div>
+
+                        <button id="boton" type="submit">Enviar</button>
 
                 </form>
 
@@ -97,6 +94,7 @@
 </main>
 <footer>
 
-</footer>  
+</footer>
+<script src="uno.js"> </script>  
 </body>
 </html>
