@@ -11,7 +11,6 @@ function escuchar(event){
     console.log (empanadas)
 
 
-
     let nombre=document.getElementById("nombre").value
     console.log (nombre)
 
@@ -24,4 +23,20 @@ function escuchar(event){
 
     let correo=document.getElementById("correo").value
     console.log (correo)
+
+    if(empanadas=="carne"){
+        alert("Su total a pagar es: $2500")
+    }
+    else if(empanadas=="paisa"){
+        alert("Su total a pagar es: $5000")
+    }
+    else if(empanadas=="queso"){
+        alert("Su total a pagar es: $5000")
+    }
+    else if(empanadas=="ranchera"){
+        alert("Su total a pagar es: $3500")
+    }
+    else if(empanadas=="papa"){
+        alert("Su total a pagar es: $2000")
+    }
 }
